@@ -42,4 +42,4 @@ To run ManCAR, use the following command:
 
 ## Acknowledgements
 
-We greatly appreciate the official [ReaRec]([TangJiakai/ReaRec: [Under Review\] Think Before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation](https://github.com/TangJiakai/ReaRec)) repository. Our code is based on the ReaRec repository.
+We greatly appreciate the official [ReaRec](https://github.com/TangJiakai/ReaRec) repository. Our code is based on the ReaRec repository.
