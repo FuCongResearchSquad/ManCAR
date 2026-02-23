@@ -5,15 +5,24 @@ This repository provides a PyTorch reference implementation of the main models a
 > Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li.  **ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**.
 
 
+## Overview
+
+![image](./image/moti.png)
+
+we propose **ManCAR**, a principled framework that grounds reasoning within the topology of a global interaction graph. ManCAR constructs a **local intent prior** from the collaborative neighborhood of a user's recent actions, represented as a distribution over the item simplex. During training, the model progressively aligns its latent predictive distribution with this prior, forcing the reasoning trajectory to remain within the **valid manifold**. At test time, reasoning proceeds adaptively until the predictive distribution stabilizes, avoiding over-refinement.
+
+![image](./image/framework.png)
+
+
 ## Paper & Resources
 
 - Hugging Face Papers:  
 - arXiv: 
-- Dataset (Hugging Face): 
+- Dataset (Hugging Face): https://huggingface.co/datasets/PIIR/ManCAR
 
 ## Dataset process
 
-you can download CDs dataset from Hugging Face
+you can download CDs dataset from [Hugging Face](https://huggingface.co/datasets/PIIR/ManCAR)
 
 After downloading the dataset, you need put the dataset into `dataset/processed/`.
 
@@ -27,6 +36,8 @@ or use the following commands to process your datasets
 
 After processed, you need to put the processed dataset into `dataset/processed/`.
 
+![image](./image/datasets.png)
+
 ## Requirements
 torch==2.4.1
 
@@ -39,6 +50,12 @@ To run ManCAR, use the following command:
 
 1. cd ManCAR
 2. bash run.sh
+
+
+## Results
+
+![image](./image/results.png)
+
 
 ## Acknowledgements
 
