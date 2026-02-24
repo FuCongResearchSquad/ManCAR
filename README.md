@@ -60,3 +60,15 @@ To run ManCAR, use the following command:
 ## Acknowledgements
 
 We greatly appreciate the official [ReaRec](https://github.com/TangJiakai/ReaRec) repository. Our code is based on the ReaRec repository.
+
+## Citation
+
+If you use this dataset, please cite:
+
+```bibtex
+@article{mancar2026,
+  title={ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation},
+  author={Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li},
+  journal={arXiv preprint arXiv:2602.20093},
+  year={2026}
+}
