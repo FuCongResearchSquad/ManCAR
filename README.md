@@ -16,8 +16,8 @@ we propose **ManCAR**, a principled framework that grounds reasoning within the 
 
 ## Paper & Resources
 
-- Hugging Face Papers:  
-- arXiv: 
+- Hugging Face Papers:  https://huggingface.co/papers/2602.20093
+- arXiv: https://arxiv.org/abs/2602.20093
 - Dataset (Hugging Face): https://huggingface.co/datasets/PIIR/ManCAR
 
 ## Dataset process
