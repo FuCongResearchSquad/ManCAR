@@ -328,7 +328,6 @@ class BaseRunner(object):
             item_ids.append(batch[ITEM_ID].detach())
         predictions = torch.cat(predictions, dim=0)
         predictions[:, 0] = -torch.inf
-        predictions[:, -1] = -torch.inf  # set the first and last item score to -inf
         item_ids = torch.cat(item_ids, dim=0)
         print(item_ids)
         return predictions, item_ids
