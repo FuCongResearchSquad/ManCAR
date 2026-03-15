@@ -328,7 +328,6 @@ class AdaptiveBaseRunnerOracle(object):
                 prediction = dataset.model.inference(batch_gpu)["prediction"]
                 
                 prediction[:, 0] = -torch.inf
-                prediction[:, -1] = -torch.inf
                 
                 _, topk_indices = torch.topk(prediction, k=max_topk, dim=1)
                 
@@ -395,7 +394,6 @@ class AdaptiveBaseRunnerOracle(object):
                 all_stop_t.append(stop_t.cpu().numpy())
                 
                 prediction[:, 0] = -torch.inf
-                prediction[:, -1] = -torch.inf
                 
                 _, topk_indices = torch.topk(prediction, k=max_topk, dim=1)
                 
@@ -468,7 +466,6 @@ class AdaptiveBaseRunnerOracle(object):
             for t in range(T):
                 logits_t = seq_output[:, t, :] @ E.T  # [B, N]
                 logits_t[:, 0] = -torch.inf
-                logits_t[:, -1] = -torch.inf
                 _, topk_t = torch.topk(logits_t, k=max_topk, dim=1)
                 all_topk_by_step[t].append(topk_t.cpu().numpy())
 
@@ -549,7 +546,6 @@ class AdaptiveBaseRunnerOracle(object):
             for t in range(T):
                 logits_t = seq_output[:, t, :] @ E.T
                 logits_t[:, 0] = -torch.inf
-                logits_t[:, -1] = -torch.inf
                 _, topk_t = torch.topk(logits_t, k=max_topk, dim=1)
                 all_topk_by_step[t].append(topk_t.cpu().numpy())
 
