@@ -1,8 +1,8 @@
 # ManCAR
 
-This repository provides a PyTorch reference implementation of the main models and training procedures described in our paper:
+This repository provides a PyTorch reference implementation of the main models and training procedures described in our KDD'26 paper:
 
-> Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li.  **ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**.
+> Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li.  **ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**. KDD 2026.
 
 
 ## Overview
@@ -63,12 +63,12 @@ We greatly appreciate the official [ReaRec](https://github.com/TangJiakai/ReaRec
 
 ## Citation
 
-If you use this dataset, please cite:
+If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{mancar2026,
+@inproceedings{mancar2026,
   title={ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation},
-  author={Kun Yang, Yuxuan Zhu, Yazhe Chen, Siyao Zheng, Bangyang Hong, Kangle Wu, Yabo Ni, Anxiang Zeng, Cong Fu, Hui Li},
-  journal={arXiv preprint arXiv:2602.20093},
+  author={Kun Yang and Yuxuan Zhu and Yazhe Chen and Siyao Zheng and Bangyang Hong and Kangle Wu and Yabo Ni and Anxiang Zeng and Cong Fu and Hui Li},
+  booktitle={KDD},
   year={2026}
 }
