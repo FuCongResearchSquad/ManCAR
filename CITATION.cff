@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation"
+type: software
+version: "1.0.0"
+date-released: "2026-05-28"
+repository-code: "https://github.com/FuCongResearchSquad/ManCAR"
+url: "https://github.com/FuCongResearchSquad/ManCAR"
+license: "<SPDX-LICENSE-ID>"
+
+authors:
+  - given-names: "Kun"
+    family-names: "Yang"
+  - given-names: "Yuxuan"
+    family-names: "Zhu"
+  - given-names: "Yazhe"
+    family-names: "Chen"
+  - given-names: "Siyao"
+    family-names: "Zheng"
+  - given-names: "Bangyang"
+    family-names: "Hong"
+  - given-names: "Kangle"
+    family-names: "Wu"
+  - given-names: "Yabo"
+    family-names: "Ni"
+  - given-names: "Anxiang"
+    family-names: "Zeng"
+  - given-names: "Cong"
+    family-names: "Fu"
+  - given-names: "Hui"
+    family-names: "Li"
+
+preferred-citation:
+  type: article
+  title: "ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation"
+  authors:
+    - given-names: "Kun"
+      family-names: "Yang"
+    - given-names: "Yuxuan"
+      family-names: "Zhu"
+    - given-names: "Yazhe"
+      family-names: "Chen"
+    - given-names: "Siyao"
+      family-names: "Zheng"
+    - given-names: "Bangyang"
+      family-names: "Hong"
+    - given-names: "Kangle"
+      family-names: "Wu"
+    - given-names: "Yabo"
+      family-names: "Ni"
+    - given-names: "Anxiang"
+      family-names: "Zeng"
+    - given-names: "Cong"
+      family-names: "Fu"
+    - given-names: "Hui"
+      family-names: "Li"
+  journal: "arXiv preprint arXiv:2602.20093"
+  year: 2026
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2602.20093"
+    - type: url
+      value: "https://arxiv.org/abs/2602.20093"
